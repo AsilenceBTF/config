@@ -7,7 +7,6 @@ set hlsearch
 set sw=4
 set cursorline
 set ruler 
-set nobackup
 set autochdir
 set backupcopy=yes
 set smartindent
@@ -24,3 +23,7 @@ let Tlist_Use_Right_Window=1
 set tags=tags;
 set autochdir
 syntax on
+set nobackup       " no backup files
+set noswapfile     " no swap files
+set nowritebackup  " only in case you don't want a backup file while editing
+set noundofile     " no undo files
